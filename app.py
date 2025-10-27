@@ -9,8 +9,9 @@ st.title("🤖 Customer Churn Prediction")
 st.write("Enter customer details to predict the likelihood of churn.")
 
 # --- Define File Paths ---
-SCALER_FILE = r"C:\Users\khush\OneDrive\Desktop\mllab\scaler.pkl"
-MODEL_FILE = r"C:\Users\khush\OneDrive\Desktop\mllab\xgboost_model.pkl"
+# --- Define File Paths ---
+SCALER_FILE = "scaler.pkl"
+MODEL_FILE = "xgboost_model.pkl"
 
 # --- Helper function to load models safely ---
 @st.cache_resource
